@@ -21,7 +21,7 @@ export default function FirstPost({ post }) {
 }
 
 export async function getServerSideProps(context) {
-  const firstPostMd = getPost('first-post.md')
+  const firstPostMd = getPost('first-post-1.md')
   console.log(firstPostMd)
   return {
     props: {
